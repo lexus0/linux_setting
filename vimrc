@@ -58,3 +58,7 @@ com Ntree :NERDTree
 
 "autocmd VimEnter * NERDTree
 map <f2> :silent! NERDTreeToggle<CR>
+
+"set tab as space(s)
+set expandtab
+set tabstop=4
