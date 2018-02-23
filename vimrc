@@ -58,3 +58,6 @@ com Ntree :NERDTree
 
 "autocmd VimEnter * NERDTree
 map <f2> :silent! NERDTreeToggle<CR>
+
+set expandtab
+set tabstop=2
