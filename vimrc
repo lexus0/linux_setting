@@ -63,4 +63,4 @@ set expandtab
 set tabstop=2
 set colorcolumn=80
 
-
+au BufRead,BufNewFile *.tpp,*.hpp  set filetype=cpp
