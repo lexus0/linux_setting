@@ -59,8 +59,9 @@ com Ntree :NERDTree
 "autocmd VimEnter * NERDTree
 map <f2> :silent! NERDTreeToggle<CR>
 
+"mark expandtab when wrigin Makefile
 set expandtab
-set tabstop=2
+set tabstop=4
 set colorcolumn=80
 
 au BufRead,BufNewFile *.tpp,*.hpp  set filetype=cpp
