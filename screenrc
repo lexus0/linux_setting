@@ -111,6 +111,6 @@ hardstatus alwaysignore
 hardstatus alwayslastline "%{= .K} [%l]%<%=%{= .R}@%H %=%{= .m} %Y/%m/%d%{= .M} %0c "
 hardstatus string '%H:%`'
 backtick 0 30 30 sh -c 'screen -ls | grep --color=no -o "$PPID[^[:space:]]*"'
-bindkey "^[[1;5D" prev
-bindkey "^[[1;5C" next
+bindkey "^[[1;5A" prev
+bindkey "^[[1;5B" next
 escape ^Zz
